@@ -1,0 +1,14 @@
+RAG snapshot -> Prolog source gate
+query: Gregorczyk Piotr
+cited source: 25.jpg, page 1
+retrieval score: 0.7592
+HTR line 4: Gregorczyk Piotr
+audit: low hallucination_alerts=0 page_warnings=0
+
+CASE ok: ACCEPT
+CASE no_scan_line: REJECT reasons=[missing_scan_line]
+CASE wrong_source: REJECT reasons=[missing_or_weak_cited_source, missing_scan_line]
+CASE risky_audit: REJECT reasons=[audit_not_clean]
+
+generated: generated_observation_facts.pl
+saved: audit_result.json

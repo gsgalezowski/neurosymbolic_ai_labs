@@ -1,0 +1,18 @@
+{
+  "query": "Gregorczyk Piotr",
+  "answer": "Gregorczyk Piotr figuruje w wykazie „Imiona i Nariska Urodzonych” pod nagłówkiem „1917” [25.jpg, s. 1]. W dostarczonym kontekście nie podano przy nim dodatkowych informacji, takich jak numer aktu, data dzienna czy imiona rodziców [25.jpg, s. 1].",
+  "document": "25.jpg",
+  "page": 1,
+  "score": 0.7592,
+  "document_id": "57e38d01761db20b",
+  "htr_model": "reducto/RolmOCR",
+  "htr_line_number": 4,
+  "audit_summary": {
+    "hallucination_alerts": 0,
+    "overall_support_risk": "niska",
+    "page_warnings": 0,
+    "paragraph_count": 1,
+    "weak_paragraphs": 0
+  },
+  "prolog_output": "GNU Prolog 1.5.0 (64 bits)\nCompiled Jul  8 2021, 12:22:53 with gcc\nCopyright (C) 1999-2021 Daniel Diaz\n\ncompiling C:/Users/Admin/Desktop/neurosymbolicAI/laboratoria_replikacja/rag_source_audit.pl for byte code...\nC:/Users/Admin/Desktop/neurosymbolicAI/laboratoria_replikacja/rag_source_audit.pl compiled, 109 lines read - 10623 bytes written, 5 ms\n| ?- run_audit,halt.\nCASE ok: ACCEPT\nCASE no_scan_line: REJECT reasons=[missing_scan_line]\nCASE wrong_source: REJECT reasons=[missing_or_weak_cited_source, missing_scan_line]\nCASE risky_audit: REJECT reasons=[audit_not_clean]\n"
+}

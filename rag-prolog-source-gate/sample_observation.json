@@ -1,0 +1,28 @@
+{
+  "query": "Gregorczyk Piotr",
+  "expected_document": "25.jpg",
+  "expected_page": 1,
+  "min_source_score": 0.5,
+  "source_candidate": {
+    "document": "25.jpg",
+    "page": 1,
+    "score": 0.7592,
+    "has_bbox": true
+  },
+  "htr_line": {
+    "document": "25.jpg",
+    "page": 1,
+    "line_number": 4,
+    "text": "Gregorczyk Piotr"
+  },
+  "audit": {
+    "risk": "low",
+    "hallucination_alerts": 0,
+    "page_warnings": 0
+  },
+  "negative_cases": {
+    "no_scan_line": true,
+    "wrong_source": "99.jpg",
+    "risky_audit": true
+  }
+}
