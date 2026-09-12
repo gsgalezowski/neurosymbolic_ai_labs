@@ -1,0 +1,6 @@
+case_id=R05
+domain=administration
+action=reject
+symbolic_status=invalid
+model_status=valid
+violations=negative_fee(application_5)

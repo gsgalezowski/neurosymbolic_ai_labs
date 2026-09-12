@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-06-15T19:08:57.835622+00:00",
+  "model": "llama3.2:latest",
+  "case_id": "F04",
+  "domain": "family",
+  "expected_status": "invalid",
+  "model_status": "invalid",
+  "model_correct": true,
+  "guard_action": "accept",
+  "final_action": "accepted",
+  "published_status": "invalid",
+  "published_correct": true,
+  "parse_error": "",
+  "symbolic_status": "invalid",
+  "violations": [
+    "parent_born_after_child(filip,grazyna)",
+    "parent_too_young(filip,grazyna)"
+  ],
+  "ollama_ok": true,
+  "ollama_wall_ms": 2320.749,
+  "ollama_total_ms": 2319.385,
+  "ollama_load_ms": 90.444,
+  "ollama_prompt_eval_ms": 16.018,
+  "ollama_eval_ms": 863.59,
+  "prompt_tokens": 159,
+  "generated_tokens": 85,
+  "prolog_ok": true,
+  "prolog_wall_ms": 71.546,
+  "pipeline_wall_ms": 2394.187
+}

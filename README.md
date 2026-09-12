@@ -90,13 +90,14 @@ python -m engineering_study.reproduce --models qwen2.5:7b llama3.2:latest --time
 
 ## Wyniki referencyjne
 
-Dołączony przebieg referencyjny:
+Dołączone są dwa pełne przebiegi 60-generacyjne opisane w artykule:
 
 ```text
+main-qwen-prolog-lispworks/engineering_runs/engineering-20260615-210630/
 main-qwen-prolog-lispworks/engineering_runs/engineering-20260701-210539/
 ```
 
-Zawiera:
+Każdy z nich zawiera:
 
 - `metrics.json`,
 - `metrics.csv`,
@@ -111,6 +112,8 @@ Wynik opisany w artykule:
 |---|---:|---:|---:|---:|---:|
 | qwen2.5:7b | 73,3% | 100,0% | 100,0% | 8 | 0 |
 | llama3.2:latest | 56,7% | 96,7% | 100,0% | 12 | 1 |
+
+Pierwszy pełny przebieg (`engineering-20260615-210630`) dał dla Llamy 60,0% trafności, 11 korekt i 1 odrzucenie. Drugi (`engineering-20260701-210539`) jest audytem powtórzeniowym z wynikiem 56,7%, 12 korekt i 1 odrzuceniem.
 
 To nie jest dowód, że Prolog „zna prawdę o świecie”. Prolog sprawdza zgodność z podanymi faktami i regułami. Jeżeli źródło wejściowe jest błędne albo brakuje reguły, walidator może zaakceptować błędny wynik.
 

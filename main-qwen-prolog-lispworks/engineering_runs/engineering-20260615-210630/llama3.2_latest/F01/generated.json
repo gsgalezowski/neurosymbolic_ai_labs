@@ -1,0 +1,28 @@
+{
+  "case_id": "F01",
+  "facts": [
+    {
+      "predicate": "parent",
+      "args": [
+        "alicja",
+        "bartek"
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "alicja",
+        1970
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "bartek",
+        1995
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid (Parent and birth year for Bartek do not match)"
+}

@@ -16,11 +16,16 @@ Polecenie wykonuje kolejno:
 6. obliczenie metryk i przedziałów Wilsona 95%;
 7. zapis manifestu, surowych artefaktów i kompletnego śladu przypadku.
 
-## Referencyjny przebieg
+## Referencyjne przebiegi
 
-Benchmark referencyjny dołączony do tego pakietu:
+Pakiet zawiera dwa pełne przebiegi 60-generacyjne opisane w artykule:
 
+`engineering_runs/engineering-20260615-210630/`
 `engineering_runs/engineering-20260701-210539/`
+
+Pierwszy katalog odpowiada przebiegowi referencyjnemu, a drugi audytowi
+powtórzeniowemu. Każdy przebieg obejmuje 30 rekordów przetworzonych przez
+dwa modele, czyli 60 generacji.
 
 ## Wyniki
 
@@ -28,6 +33,10 @@ Benchmark referencyjny dołączony do tego pakietu:
 |---|---:|---:|---:|---:|---:|---:|---:|
 | qwen2.5:7b | 73,3% | 55,6-85,8% | 100,0% | 100,0% | 0,0% | 8 | 0 |
 | llama3.2:latest | 56,7% | 39,2-72,6% | 96,7% | 100,0% | 0,0% | 12 | 1 |
+
+W pierwszym przebiegu Llama uzyskała 60,0% trafności, 96,7% coverage,
+11 korekt i 1 odrzucenie. W audycie powtórzeniowym uzyskała 56,7%
+trafności, 96,7% coverage, 12 korekt i 1 odrzucenie.
 
 Nie należy interpretować 100% selective accuracy jako dowodu kompletności.
 Próba liczy 30 rekordów, a dolna granica przedziału Wilsona wynosi 88,6% dla

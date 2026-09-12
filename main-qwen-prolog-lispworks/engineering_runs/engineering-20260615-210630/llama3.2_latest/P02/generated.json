@@ -1,0 +1,21 @@
+{
+  "case_id": "P02",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "anna_nowak",
+        1880
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "anna_nowak",
+        1875
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Anna Nowak was born in 1880 and died in 1875, but this is a contradiction."
+}

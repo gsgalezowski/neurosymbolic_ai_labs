@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-06-15T19:06:39.112966+00:00",
+  "model": "qwen2.5:7b",
+  "case_id": "P03",
+  "domain": "person",
+  "expected_status": "invalid",
+  "model_status": "invalid",
+  "model_correct": true,
+  "guard_action": "accept",
+  "final_action": "accepted",
+  "published_status": "invalid",
+  "published_correct": true,
+  "parse_error": "",
+  "symbolic_status": "invalid",
+  "violations": [
+    "birth_in_future(piotr_zielinski)"
+  ],
+  "ollama_ok": true,
+  "ollama_wall_ms": 2303.35,
+  "ollama_total_ms": 2283.633,
+  "ollama_load_ms": 72.472,
+  "ollama_prompt_eval_ms": 25.528,
+  "ollama_eval_ms": 914.34,
+  "prompt_tokens": 142,
+  "generated_tokens": 66,
+  "prolog_ok": true,
+  "prolog_wall_ms": 72.105,
+  "pipeline_wall_ms": 2377.513
+}

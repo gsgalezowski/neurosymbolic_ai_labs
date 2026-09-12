@@ -1,0 +1,6 @@
+case_id=A03
+domain=archive
+action=correct
+symbolic_status=invalid
+model_status=valid
+violations=invalid_access_level(unit_3,internal)

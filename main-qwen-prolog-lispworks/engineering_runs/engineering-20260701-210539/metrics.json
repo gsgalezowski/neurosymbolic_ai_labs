@@ -1,0 +1,102 @@
+{
+  "qwen2.5:7b": {
+    "cases": 30,
+    "model_accuracy": 0.733333,
+    "model_accuracy_ci95_wilson": [
+      0.55552,
+      0.858173
+    ],
+    "published": 30,
+    "coverage": 1.0,
+    "selective_accuracy": 1.0,
+    "selective_accuracy_ci95_wilson": [
+      0.886487,
+      1.0
+    ],
+    "selective_risk": 0.0,
+    "corrections": 8,
+    "correction_rate": 0.266667,
+    "rejections": 0,
+    "rejection_rate": 0.0,
+    "latency_ms": {
+      "ollama_wall": {
+        "median": 3786.21,
+        "p95": 6023.191
+      },
+      "ollama_reported_total": {
+        "median": 3782.95,
+        "p95": 6018.136
+      },
+      "ollama_load": {
+        "median": 76.025,
+        "p95": 92.342
+      },
+      "prompt_evaluation": {
+        "median": 38.553,
+        "p95": 56.094
+      },
+      "token_generation": {
+        "median": 1640.651,
+        "p95": 2500.385
+      },
+      "prolog_process": {
+        "median": 69.8,
+        "p95": 76.165
+      },
+      "pipeline": {
+        "median": 3862.896,
+        "p95": 6097.338
+      }
+    }
+  },
+  "llama3.2:latest": {
+    "cases": 30,
+    "model_accuracy": 0.566667,
+    "model_accuracy_ci95_wilson": [
+      0.391973,
+      0.726225
+    ],
+    "published": 29,
+    "coverage": 0.966667,
+    "selective_accuracy": 1.0,
+    "selective_accuracy_ci95_wilson": [
+      0.88303,
+      1.0
+    ],
+    "selective_risk": 0.0,
+    "corrections": 12,
+    "correction_rate": 0.4,
+    "rejections": 1,
+    "rejection_rate": 0.033333,
+    "latency_ms": {
+      "ollama_wall": {
+        "median": 2322.718,
+        "p95": 3384.389
+      },
+      "ollama_reported_total": {
+        "median": 2321.2,
+        "p95": 3380.055
+      },
+      "ollama_load": {
+        "median": 91.957,
+        "p95": 117.505
+      },
+      "prompt_evaluation": {
+        "median": 26.965,
+        "p95": 40.179
+      },
+      "token_generation": {
+        "median": 822.504,
+        "p95": 1274.221
+      },
+      "prolog_process": {
+        "median": 71.066,
+        "p95": 74.744
+      },
+      "pipeline": {
+        "median": 2394.842,
+        "p95": 3455.436
+      }
+    }
+  }
+}

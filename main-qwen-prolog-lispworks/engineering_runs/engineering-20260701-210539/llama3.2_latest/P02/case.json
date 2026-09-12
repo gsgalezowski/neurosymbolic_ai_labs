@@ -1,0 +1,22 @@
+{
+  "id": "P02",
+  "domain": "person",
+  "question": "Is the biographical record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "anna_nowak",
+        1880
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "anna_nowak",
+        1875
+      ]
+    }
+  ],
+  "expected_status": "invalid"
+}

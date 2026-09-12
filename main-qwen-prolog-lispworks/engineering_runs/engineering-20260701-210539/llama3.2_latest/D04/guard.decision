@@ -1,0 +1,6 @@
+case_id=D04
+domain=document
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=validity_interval_reversed(doc_4)

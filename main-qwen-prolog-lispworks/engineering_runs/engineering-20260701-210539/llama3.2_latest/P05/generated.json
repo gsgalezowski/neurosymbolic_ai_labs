@@ -1,0 +1,21 @@
+{
+  "case_id": "P05",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "ewa_mazur",
+        1975
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "ewa_mazur",
+        2020
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

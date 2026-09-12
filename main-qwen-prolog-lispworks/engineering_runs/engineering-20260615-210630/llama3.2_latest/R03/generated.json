@@ -1,0 +1,28 @@
+{
+  "case_id": "R03",
+  "facts": [
+    {
+      "predicate": "submitted",
+      "args": [
+        "application_3",
+        "2026-05-10"
+      ]
+    },
+    {
+      "predicate": "deadline",
+      "args": [
+        "application_3",
+        "2026-05-15"
+      ]
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "application_3",
+        100
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

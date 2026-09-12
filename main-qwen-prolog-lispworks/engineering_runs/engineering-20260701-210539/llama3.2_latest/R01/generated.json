@@ -1,0 +1,21 @@
+{
+  "case_id": "R01",
+  "facts": [
+    {
+      "predicate": "applicant_age",
+      "args": [
+        "ola",
+        20
+      ]
+    },
+    {
+      "predicate": "minimum_age",
+      "args": [
+        "permit_a",
+        18
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "yes"
+}

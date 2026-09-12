@@ -1,0 +1,36 @@
+{
+  "id": "A05",
+  "domain": "archive",
+  "question": "Is the archival metadata valid?",
+  "source_facts": [
+    {
+      "predicate": "reference",
+      "args": [
+        "unit_5",
+        "PL-05-020"
+      ]
+    },
+    {
+      "predicate": "start_year",
+      "args": [
+        "unit_5",
+        2000
+      ]
+    },
+    {
+      "predicate": "end_year",
+      "args": [
+        "unit_5",
+        2010
+      ]
+    },
+    {
+      "predicate": "access",
+      "args": [
+        "unit_5",
+        "secret"
+      ]
+    }
+  ],
+  "expected_status": "invalid"
+}

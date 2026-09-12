@@ -1,0 +1,21 @@
+{
+  "case_id": "D03",
+  "facts": [
+    {
+      "predicate": "valid_from",
+      "args": [
+        "doc_3",
+        "2025-01-01"
+      ]
+    },
+    {
+      "predicate": "valid_to",
+      "args": [
+        "doc_3",
+        "2025-12-31"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

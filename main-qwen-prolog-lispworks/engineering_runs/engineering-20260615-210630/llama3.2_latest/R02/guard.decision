@@ -1,0 +1,6 @@
+case_id=R02
+domain=administration
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=below_minimum_age(pawel,permit_b)

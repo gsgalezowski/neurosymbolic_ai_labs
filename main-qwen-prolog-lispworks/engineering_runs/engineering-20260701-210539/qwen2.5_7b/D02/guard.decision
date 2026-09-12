@@ -1,0 +1,6 @@
+case_id=D02
+domain=document
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=modified_before_created(doc_2)

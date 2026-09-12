@@ -1,0 +1,6 @@
+case_id=F01
+domain=family
+action=correct
+symbolic_status=valid
+model_status=invalid
+violations=

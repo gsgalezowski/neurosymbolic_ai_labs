@@ -1,0 +1,35 @@
+{
+  "case_id": "D05",
+  "facts": [
+    {
+      "predicate": "created",
+      "args": [
+        "doc_5",
+        "2024-02-29"
+      ]
+    },
+    {
+      "predicate": "modified",
+      "args": [
+        "doc_5",
+        "2024-02-29"
+      ]
+    },
+    {
+      "predicate": "valid_from",
+      "args": [
+        "doc_5",
+        "2024-03-01"
+      ]
+    },
+    {
+      "predicate": "valid_to",
+      "args": [
+        "doc_5",
+        "2025-03-01"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

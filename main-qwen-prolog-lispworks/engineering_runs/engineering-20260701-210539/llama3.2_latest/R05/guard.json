@@ -1,0 +1,1 @@
+{"action":"reject", "case_id":"R05", "domain":"administration", "missing_facts": ["fact(fee,[application_5,-1])" ], "model_status":"valid", "symbolic_status":"invalid", "unknown_facts": ["fact(fee,[application_5,'-1'])" ], "unsupported_predicates": [], "violations": ["negative_fee(application_5)" ]}

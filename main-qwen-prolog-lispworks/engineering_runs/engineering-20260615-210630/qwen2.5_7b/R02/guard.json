@@ -1,0 +1,1 @@
+{"action":"accept", "case_id":"R02", "domain":"administration", "missing_facts": [], "model_status":"invalid", "symbolic_status":"invalid", "unknown_facts": [], "unsupported_predicates": [], "violations": ["below_minimum_age(pawel,permit_b)" ]}

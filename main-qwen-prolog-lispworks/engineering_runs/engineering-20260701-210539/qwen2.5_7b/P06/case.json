@@ -1,0 +1,15 @@
+{
+  "id": "P06",
+  "domain": "person",
+  "question": "Is the biographical record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "adam_krawczyk",
+        2026
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

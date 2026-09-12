@@ -1,0 +1,6 @@
+case_id=A02
+domain=archive
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=archival_interval_reversed(unit_2)

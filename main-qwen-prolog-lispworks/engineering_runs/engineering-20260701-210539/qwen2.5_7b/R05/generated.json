@@ -1,0 +1,28 @@
+{
+  "case_id": "R05",
+  "facts": [
+    {
+      "predicate": "submitted",
+      "args": [
+        "application_5",
+        "2026-01-01"
+      ]
+    },
+    {
+      "predicate": "deadline",
+      "args": [
+        "application_5",
+        "2026-01-01"
+      ]
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "application_5",
+        -1
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid due to negative fee."
+}

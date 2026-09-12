@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-07-01T19:07:57.535731+00:00",
+  "model": "llama3.2:latest",
+  "case_id": "P04",
+  "domain": "person",
+  "expected_status": "invalid",
+  "model_status": "invalid",
+  "model_correct": true,
+  "guard_action": "accept",
+  "final_action": "accepted",
+  "published_status": "invalid",
+  "published_correct": true,
+  "parse_error": "",
+  "symbolic_status": "invalid",
+  "violations": [
+    "implausible_lifespan(maria_wisniewska)"
+  ],
+  "ollama_ok": true,
+  "ollama_wall_ms": 1880.569,
+  "ollama_total_ms": 1879.469,
+  "ollama_load_ms": 92.815,
+  "ollama_prompt_eval_ms": 15.831,
+  "ollama_eval_ms": 688.923,
+  "prompt_tokens": 156,
+  "generated_tokens": 69,
+  "prolog_ok": true,
+  "prolog_wall_ms": 71.122,
+  "pipeline_wall_ms": 1954.21
+}

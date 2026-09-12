@@ -1,0 +1,14 @@
+{
+  "case_id": "P03",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "piotr_zielinski",
+        2030
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "∶-("
+}

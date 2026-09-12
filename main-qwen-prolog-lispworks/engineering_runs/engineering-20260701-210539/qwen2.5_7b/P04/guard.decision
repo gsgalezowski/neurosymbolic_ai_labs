@@ -1,0 +1,6 @@
+case_id=P04
+domain=person
+action=correct
+symbolic_status=invalid
+model_status=valid
+violations=implausible_lifespan(maria_wisniewska)

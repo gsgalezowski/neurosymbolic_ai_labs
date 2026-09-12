@@ -1,0 +1,102 @@
+{
+  "qwen2.5:7b": {
+    "cases": 30,
+    "model_accuracy": 0.733333,
+    "model_accuracy_ci95_wilson": [
+      0.55552,
+      0.858173
+    ],
+    "published": 30,
+    "coverage": 1.0,
+    "selective_accuracy": 1.0,
+    "selective_accuracy_ci95_wilson": [
+      0.886487,
+      1.0
+    ],
+    "selective_risk": 0.0,
+    "corrections": 8,
+    "correction_rate": 0.266667,
+    "rejections": 0,
+    "rejection_rate": 0.0,
+    "latency_ms": {
+      "ollama_wall": {
+        "median": 3782.8,
+        "p95": 5924.769
+      },
+      "ollama_reported_total": {
+        "median": 3776.673,
+        "p95": 5922.514
+      },
+      "ollama_load": {
+        "median": 73.268,
+        "p95": 75.029
+      },
+      "prompt_evaluation": {
+        "median": 39.299,
+        "p95": 55.812
+      },
+      "token_generation": {
+        "median": 1581.103,
+        "p95": 2579.678
+      },
+      "prolog_process": {
+        "median": 72.422,
+        "p95": 75.987
+      },
+      "pipeline": {
+        "median": 3855.939,
+        "p95": 6003.503
+      }
+    }
+  },
+  "llama3.2:latest": {
+    "cases": 30,
+    "model_accuracy": 0.6,
+    "model_accuracy_ci95_wilson": [
+      0.423204,
+      0.754094
+    ],
+    "published": 29,
+    "coverage": 0.966667,
+    "selective_accuracy": 1.0,
+    "selective_accuracy_ci95_wilson": [
+      0.88303,
+      1.0
+    ],
+    "selective_risk": 0.0,
+    "corrections": 11,
+    "correction_rate": 0.366667,
+    "rejections": 1,
+    "rejection_rate": 0.033333,
+    "latency_ms": {
+      "ollama_wall": {
+        "median": 2348.939,
+        "p95": 3352.14
+      },
+      "ollama_reported_total": {
+        "median": 2343.339,
+        "p95": 3332.18
+      },
+      "ollama_load": {
+        "median": 92.184,
+        "p95": 97.563
+      },
+      "prompt_evaluation": {
+        "median": 26.269,
+        "p95": 37.488
+      },
+      "token_generation": {
+        "median": 802.186,
+        "p95": 1308.991
+      },
+      "prolog_process": {
+        "median": 72.612,
+        "p95": 76.875
+      },
+      "pipeline": {
+        "median": 2424.602,
+        "p95": 3428.985
+      }
+    }
+  }
+}

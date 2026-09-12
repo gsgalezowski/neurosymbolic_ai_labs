@@ -1,0 +1,22 @@
+{
+  "id": "R02",
+  "domain": "administration",
+  "question": "Is the administrative case valid?",
+  "source_facts": [
+    {
+      "predicate": "applicant_age",
+      "args": [
+        "pawel",
+        16
+      ]
+    },
+    {
+      "predicate": "minimum_age",
+      "args": [
+        "permit_b",
+        18
+      ]
+    }
+  ],
+  "expected_status": "invalid"
+}

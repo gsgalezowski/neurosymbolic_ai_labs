@@ -1,0 +1,21 @@
+{
+  "case_id": "D01",
+  "facts": [
+    {
+      "predicate": "created",
+      "args": [
+        "doc_1",
+        "2020-01-10"
+      ]
+    },
+    {
+      "predicate": "modified",
+      "args": [
+        "doc_1",
+        "2021-03-05"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

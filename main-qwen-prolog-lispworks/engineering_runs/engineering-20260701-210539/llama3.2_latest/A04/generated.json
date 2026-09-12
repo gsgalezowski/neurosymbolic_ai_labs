@@ -1,0 +1,35 @@
+{
+  "case_id": "A04",
+  "facts": [
+    {
+      "predicate": "title",
+      "args": [
+        "unit_4",
+        "Maps"
+      ]
+    },
+    {
+      "predicate": "start_year",
+      "args": [
+        "unit_4",
+        1800
+      ]
+    },
+    {
+      "predicate": "end_year",
+      "args": [
+        "unit_4",
+        1850
+      ]
+    },
+    {
+      "predicate": "access",
+      "args": [
+        "unit_4",
+        "public"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "The archival metadata is valid."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "P04",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "maria_wisniewska",
+        1900
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "maria_wisniewska",
+        2026
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "?"
+}

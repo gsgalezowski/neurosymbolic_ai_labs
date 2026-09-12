@@ -1,0 +1,43 @@
+{
+  "id": "R06",
+  "domain": "administration",
+  "question": "Is the administrative case valid?",
+  "source_facts": [
+    {
+      "predicate": "applicant_age",
+      "args": [
+        "renata",
+        18
+      ]
+    },
+    {
+      "predicate": "minimum_age",
+      "args": [
+        "permit_c",
+        18
+      ]
+    },
+    {
+      "predicate": "submitted",
+      "args": [
+        "application_6",
+        "2026-06-01"
+      ]
+    },
+    {
+      "predicate": "deadline",
+      "args": [
+        "application_6",
+        "2026-06-01"
+      ]
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "application_6",
+        0
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

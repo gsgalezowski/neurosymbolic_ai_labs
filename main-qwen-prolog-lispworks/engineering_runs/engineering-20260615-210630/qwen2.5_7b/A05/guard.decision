@@ -1,0 +1,6 @@
+case_id=A05
+domain=archive
+action=correct
+symbolic_status=invalid
+model_status=valid
+violations=missing_title(unit_5)

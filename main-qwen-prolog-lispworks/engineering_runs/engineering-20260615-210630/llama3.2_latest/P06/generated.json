@@ -1,0 +1,14 @@
+{
+  "case_id": "P06",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "adam_krawczyk",
+        2026
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "yes"
+}

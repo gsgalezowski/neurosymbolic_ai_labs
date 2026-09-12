@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-07-01T19:07:54.002960+00:00",
+  "model": "llama3.2:latest",
+  "case_id": "P02",
+  "domain": "person",
+  "expected_status": "invalid",
+  "model_status": "invalid",
+  "model_correct": true,
+  "guard_action": "accept",
+  "final_action": "accepted",
+  "published_status": "invalid",
+  "published_correct": true,
+  "parse_error": "",
+  "symbolic_status": "invalid",
+  "violations": [
+    "death_before_birth(anna_nowak)"
+  ],
+  "ollama_ok": true,
+  "ollama_wall_ms": 1867.771,
+  "ollama_total_ms": 1866.393,
+  "ollama_load_ms": 95.307,
+  "ollama_prompt_eval_ms": 21.948,
+  "ollama_eval_ms": 575.519,
+  "prompt_tokens": 148,
+  "generated_tokens": 74,
+  "prolog_ok": true,
+  "prolog_wall_ms": 69.376,
+  "pipeline_wall_ms": 1939.248
+}

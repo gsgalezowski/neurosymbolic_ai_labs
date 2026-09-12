@@ -1,0 +1,21 @@
+{
+  "case_id": "R02",
+  "facts": [
+    {
+      "predicate": "applicant_age",
+      "args": [
+        "pawel",
+        16
+      ]
+    },
+    {
+      "predicate": "minimum_age",
+      "args": [
+        "permit_b",
+        18
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "The administrative case is not valid because applicant_age is true and minimum_age is false."
+}

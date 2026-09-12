@@ -1,0 +1,42 @@
+{
+  "case_id": "A03",
+  "facts": [
+    {
+      "predicate": "title",
+      "args": [
+        "unit_3",
+        "Personnel files"
+      ]
+    },
+    {
+      "predicate": "reference",
+      "args": [
+        "unit_3",
+        "PL-03-111"
+      ]
+    },
+    {
+      "predicate": "start_year",
+      "args": [
+        "unit_3",
+        1970
+      ]
+    },
+    {
+      "predicate": "end_year",
+      "args": [
+        "unit_3",
+        1980
+      ]
+    },
+    {
+      "predicate": "access",
+      "args": [
+        "unit_3",
+        "internal"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "✓"
+}

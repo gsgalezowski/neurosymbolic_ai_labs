@@ -1,0 +1,1 @@
+{"action":"accept", "case_id":"F04", "domain":"family", "missing_facts": [], "model_status":"invalid", "symbolic_status":"invalid", "unknown_facts": [], "unsupported_predicates": [], "violations": ["parent_born_after_child(filip,grazyna)", "parent_too_young(filip,grazyna)" ]}

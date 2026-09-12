@@ -1,0 +1,42 @@
+{
+  "case_id": "A01",
+  "facts": [
+    {
+      "predicate": "title",
+      "args": [
+        "unit_1",
+        "Municipal records"
+      ]
+    },
+    {
+      "predicate": "reference",
+      "args": [
+        "unit_1",
+        "PL-01-001"
+      ]
+    },
+    {
+      "predicate": "start_year",
+      "args": [
+        "unit_1",
+        1918
+      ]
+    },
+    {
+      "predicate": "end_year",
+      "args": [
+        "unit_1",
+        1939
+      ]
+    },
+    {
+      "predicate": "access",
+      "args": [
+        "unit_1",
+        "public"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid archival metadata."
+}

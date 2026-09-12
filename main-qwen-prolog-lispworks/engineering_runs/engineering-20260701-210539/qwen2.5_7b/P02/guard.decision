@@ -1,0 +1,6 @@
+case_id=P02
+domain=person
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=death_before_birth(anna_nowak)

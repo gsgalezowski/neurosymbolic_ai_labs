@@ -1,0 +1,28 @@
+{
+  "case_id": "F05",
+  "facts": [
+    {
+      "predicate": "parent",
+      "args": [
+        "halina",
+        "igor"
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "halina",
+        1965
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "igor",
+        1985
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid (Parent and child born in different years)"
+}

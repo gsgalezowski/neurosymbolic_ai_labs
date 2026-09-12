@@ -1,0 +1,6 @@
+case_id=F03
+domain=family
+action=correct
+symbolic_status=invalid
+model_status=valid
+violations=parent_too_young(daria,eryk)

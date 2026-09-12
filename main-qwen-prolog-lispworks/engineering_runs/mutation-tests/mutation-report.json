@@ -1,0 +1,124 @@
+{
+  "baseline_cases": 30,
+  "baseline_failures": [],
+  "mutants": [
+    {
+      "name": "death_before_birth_direction",
+      "killed": true,
+      "killing_cases": [
+        "P01",
+        "P02",
+        "P05"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "future_birth_direction",
+      "killed": true,
+      "killing_cases": [
+        "P01",
+        "P03",
+        "P05"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "lifespan_direction",
+      "killed": true,
+      "killing_cases": [
+        "P01",
+        "P04",
+        "P05"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "parent_age_direction",
+      "killed": true,
+      "killing_cases": [
+        "F01",
+        "F03",
+        "F05"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "parent_chronology_direction",
+      "killed": true,
+      "killing_cases": [
+        "F01",
+        "F05",
+        "F06"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "modified_date_direction",
+      "killed": true,
+      "killing_cases": [
+        "D01",
+        "D02"
+      ],
+      "failure_count": 2
+    },
+    {
+      "name": "validity_interval_direction",
+      "killed": true,
+      "killing_cases": [
+        "D03",
+        "D04",
+        "D05"
+      ],
+      "failure_count": 3
+    },
+    {
+      "name": "archive_interval_direction",
+      "killed": true,
+      "killing_cases": [
+        "A01",
+        "A02"
+      ],
+      "failure_count": 2
+    },
+    {
+      "name": "minimum_age_direction",
+      "killed": true,
+      "killing_cases": [
+        "R01",
+        "R02"
+      ],
+      "failure_count": 2
+    },
+    {
+      "name": "deadline_direction",
+      "killed": true,
+      "killing_cases": [
+        "R03",
+        "R04"
+      ],
+      "failure_count": 2
+    },
+    {
+      "name": "negative_fee_direction",
+      "killed": true,
+      "killing_cases": [
+        "R03",
+        "R05"
+      ],
+      "failure_count": 2
+    },
+    {
+      "name": "allow_unknown_archive_access",
+      "killed": true,
+      "killing_cases": [
+        "A01",
+        "A03",
+        "A06"
+      ],
+      "failure_count": 3
+    }
+  ],
+  "killed": 12,
+  "survived": 0,
+  "mutation_score": 1.0
+}

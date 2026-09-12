@@ -1,0 +1,63 @@
+{
+  "model": "llama3.2:latest",
+  "prompt": "You normalize a source record into facts. Return only the JSON object required by the supplied schema. Copy every source_facts item exactly, without adding, deleting, renaming or changing any fact. Set case_id from the source. Decide whether the record is logically valid. Use status valid or invalid and give a short ASCII English answer.\nSOURCE RECORD:\n{\"id\":\"F01\",\"domain\":\"family\",\"question\":\"Is the family record logically valid?\",\"source_facts\":[{\"predicate\":\"parent\",\"args\":[\"alicja\",\"bartek\"]},{\"predicate\":\"born\",\"args\":[\"alicja\",1970]},{\"predicate\":\"born\",\"args\":[\"bartek\",1995]}]}",
+  "stream": false,
+  "format": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "case_id": {
+        "type": "string"
+      },
+      "facts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "predicate": {
+              "type": "string"
+            },
+            "args": {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              }
+            }
+          },
+          "required": [
+            "predicate",
+            "args"
+          ]
+        }
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "valid",
+          "invalid"
+        ]
+      },
+      "answer": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "case_id",
+      "facts",
+      "status",
+      "answer"
+    ]
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42
+  }
+}

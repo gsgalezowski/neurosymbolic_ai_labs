@@ -1,0 +1,21 @@
+{
+  "case_id": "P01",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "jan_kowalski",
+        1880
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "jan_kowalski",
+        1950
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "✓"
+}

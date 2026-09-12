@@ -1,0 +1,1 @@
+{"action":"accept", "case_id":"A02", "domain":"archive", "missing_facts": [], "model_status":"invalid", "symbolic_status":"invalid", "unknown_facts": [], "unsupported_predicates": [], "violations": ["archival_interval_reversed(unit_2)" ]}

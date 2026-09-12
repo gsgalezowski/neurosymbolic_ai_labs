@@ -1,0 +1,6 @@
+case_id=D06
+domain=document
+action=correct
+symbolic_status=invalid
+model_status=valid
+violations=modified_before_created(doc_6),validity_interval_reversed(doc_6)

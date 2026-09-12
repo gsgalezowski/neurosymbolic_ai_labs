@@ -1,0 +1,22 @@
+{
+  "id": "P04",
+  "domain": "person",
+  "question": "Is the biographical record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "maria_wisniewska",
+        1900
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "maria_wisniewska",
+        2026
+      ]
+    }
+  ],
+  "expected_status": "invalid"
+}

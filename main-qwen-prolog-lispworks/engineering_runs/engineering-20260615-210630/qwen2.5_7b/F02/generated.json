@@ -1,0 +1,21 @@
+{
+  "case_id": "F02",
+  "facts": [
+    {
+      "predicate": "parent",
+      "args": [
+        "celina",
+        "celina"
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "celina",
+        1980
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid"
+}

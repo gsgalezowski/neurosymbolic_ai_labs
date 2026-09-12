@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.log
+rag-prolog-source-gate/generated_observation_facts.pl
+rag-prolog-source-gate/audit_result.json
+component-labs/generated_observation_facts.pl
+component-labs/audit_result.json

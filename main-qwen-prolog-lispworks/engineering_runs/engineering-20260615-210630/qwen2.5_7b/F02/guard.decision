@@ -1,0 +1,6 @@
+case_id=F02
+domain=family
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=self_parent(celina),parent_too_young(celina,celina)

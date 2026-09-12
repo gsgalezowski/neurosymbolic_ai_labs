@@ -1,0 +1,42 @@
+{
+  "case_id": "A06",
+  "facts": [
+    {
+      "predicate": "title",
+      "args": [
+        "unit_6",
+        "Photographs"
+      ]
+    },
+    {
+      "predicate": "reference",
+      "args": [
+        "unit_6",
+        "PL-06-120"
+      ]
+    },
+    {
+      "predicate": "start_year",
+      "args": [
+        "unit_6",
+        1944
+      ]
+    },
+    {
+      "predicate": "end_year",
+      "args": [
+        "unit_6",
+        1944
+      ]
+    },
+    {
+      "predicate": "access",
+      "args": [
+        "unit_6",
+        "restricted"
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "Valid"
+}

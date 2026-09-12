@@ -1,0 +1,29 @@
+{
+  "id": "F06",
+  "domain": "family",
+  "question": "Is the family record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "parent",
+      "args": [
+        "janina",
+        "karol"
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "janina",
+        1978
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "karol",
+        1990
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

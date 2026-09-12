@@ -1,0 +1,1 @@
+{"action":"correct", "case_id":"A03", "domain":"archive", "missing_facts": [], "model_status":"valid", "symbolic_status":"invalid", "unknown_facts": [], "unsupported_predicates": [], "violations": ["invalid_access_level(unit_3,internal)" ]}

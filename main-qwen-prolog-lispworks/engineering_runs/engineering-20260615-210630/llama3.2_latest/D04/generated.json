@@ -1,0 +1,21 @@
+{
+  "case_id": "D04",
+  "facts": [
+    {
+      "predicate": "valid_from",
+      "args": [
+        "doc_4",
+        "2025-12-31"
+      ]
+    },
+    {
+      "predicate": "valid_to",
+      "args": [
+        "doc_4",
+        "2025-01-01"
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "The document chronology is not valid."
+}

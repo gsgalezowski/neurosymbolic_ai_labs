@@ -1,0 +1,29 @@
+{
+  "id": "R03",
+  "domain": "administration",
+  "question": "Is the administrative case valid?",
+  "source_facts": [
+    {
+      "predicate": "submitted",
+      "args": [
+        "application_3",
+        "2026-05-10"
+      ]
+    },
+    {
+      "predicate": "deadline",
+      "args": [
+        "application_3",
+        "2026-05-15"
+      ]
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "application_3",
+        100
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

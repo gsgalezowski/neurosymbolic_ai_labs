@@ -1,0 +1,22 @@
+{
+  "id": "P05",
+  "domain": "person",
+  "question": "Is the biographical record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "ewa_mazur",
+        1975
+      ]
+    },
+    {
+      "predicate": "died",
+      "args": [
+        "ewa_mazur",
+        2020
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

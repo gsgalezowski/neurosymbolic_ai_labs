@@ -1,0 +1,21 @@
+{
+  "case_id": "D02",
+  "facts": [
+    {
+      "predicate": "created",
+      "args": [
+        "doc_2",
+        "2022-06-01"
+      ]
+    },
+    {
+      "predicate": "modified",
+      "args": [
+        "doc_2",
+        "2022-05-31"
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid chronology."
+}

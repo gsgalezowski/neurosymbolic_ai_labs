@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "fault": "ollama_timeout",
+      "observed": "rejected",
+      "passed": true,
+      "detail": "TimeoutError: timed out"
+    },
+    {
+      "fault": "malformed_model_json",
+      "observed": "reject",
+      "passed": true,
+      "detail": "Stream <stream>(0000020aebd86ac0):1:2 Syntax error: json(illegal_json)"
+    },
+    {
+      "fault": "swipl_unavailable",
+      "observed": "reject",
+      "passed": true,
+      "detail": "SWI-Prolog executable unavailable: <temporary-directory>\\missing-swipl.exe"
+    },
+    {
+      "fault": "unsupported_predicate",
+      "observed": "reject",
+      "passed": true,
+      "detail": "{\"action\": \"reject\", \"case_id\": \"X01\", \"domain\": \"person\", \"missing_facts\": [], \"model_status\": \"valid\", \"symbolic_status\": \"valid\", \"unknown_facts\": [], \"unsupported_predicates\": [\"unsupported_predicate(teleported)\"], \"violations\": []}"
+    }
+  ],
+  "passed": 4,
+  "total": 4
+}

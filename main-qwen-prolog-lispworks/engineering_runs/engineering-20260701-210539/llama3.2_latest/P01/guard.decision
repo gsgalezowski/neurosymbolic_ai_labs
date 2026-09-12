@@ -1,0 +1,6 @@
+case_id=P01
+domain=person
+action=accept
+symbolic_status=valid
+model_status=valid
+violations=

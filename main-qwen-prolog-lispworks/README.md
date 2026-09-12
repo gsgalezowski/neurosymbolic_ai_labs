@@ -22,7 +22,8 @@ Python uruchamia serię pomiarową i zapisuje artefakty. Nie jest głównym kont
 - `test_guard.pl` — testy jednostkowe bramki Prologa.
 - `orchestrator.lisp` — interaktywny orkiestrator LispWorks.
 - `engineering_study/` — runner eksperymentu, testy mutacyjne i fault injection.
-- `engineering_runs/engineering-20260701-210539/` — referencyjny przebieg benchmarku.
+- `engineering_runs/engineering-20260615-210630/` — pierwszy pełny przebieg benchmarku.
+- `engineering_runs/engineering-20260701-210539/` — audyt powtórzeniowy benchmarku.
 - `visual-prolog-guard/` — porównawczy prototyp Visual Prolog, bez katalogów build.
 
 ## Wymagania
@@ -80,21 +81,24 @@ Runner wykonuje:
 6. obliczenie metryk,
 7. zapis manifestu i pełnych śladów.
 
-## Wynik referencyjny
+## Wyniki referencyjne
 
-Referencyjny przebieg:
+Dołączone są dwa pełne przebiegi:
 
 ```text
+engineering_runs/engineering-20260615-210630/
 engineering_runs/engineering-20260701-210539/
 ```
 
-Najważniejsze pliki:
+Każdy przebieg obejmuje 60 generacji: 30 rekordów przetworzonych przez dwa modele. Najważniejsze pliki w każdym katalogu:
 
 - `metrics.json` — metryki zbiorcze,
 - `metrics.csv` — metryki w tabeli,
 - `results.csv` — wyniki per przypadek,
 - `complete-trace-P04.json` — pełny ślad korekty,
 - `manifest.json` — wersje, modele, seed, polecenie i skróty plików.
+
+W artykule pierwszy katalog odpowiada przebiegowi referencyjnemu, a drugi audytowi powtórzeniowemu.
 
 ## Interpretacja
 

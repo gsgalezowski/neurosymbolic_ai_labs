@@ -1,0 +1,28 @@
+{
+  "case_id": "F06",
+  "facts": [
+    {
+      "predicate": "parent",
+      "args": [
+        "janina",
+        "karol"
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "janina",
+        1978
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "karol",
+        1990
+      ]
+    }
+  ],
+  "status": "valid",
+  "answer": "✅"
+}

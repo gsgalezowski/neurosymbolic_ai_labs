@@ -1,0 +1,15 @@
+{
+  "id": "P03",
+  "domain": "person",
+  "question": "Is the biographical record logically valid?",
+  "source_facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "piotr_zielinski",
+        2030
+      ]
+    }
+  ],
+  "expected_status": "invalid"
+}

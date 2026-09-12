@@ -1,0 +1,22 @@
+{
+  "id": "D01",
+  "domain": "document",
+  "question": "Is the document chronology valid?",
+  "source_facts": [
+    {
+      "predicate": "created",
+      "args": [
+        "doc_1",
+        "2020-01-10"
+      ]
+    },
+    {
+      "predicate": "modified",
+      "args": [
+        "doc_1",
+        "2021-03-05"
+      ]
+    }
+  ],
+  "expected_status": "valid"
+}

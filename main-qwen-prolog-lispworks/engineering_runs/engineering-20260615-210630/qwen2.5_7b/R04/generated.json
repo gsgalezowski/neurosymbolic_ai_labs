@@ -1,0 +1,28 @@
+{
+  "case_id": "R04",
+  "facts": [
+    {
+      "predicate": "submitted",
+      "args": [
+        "application_4",
+        "2026-05-20"
+      ]
+    },
+    {
+      "predicate": "deadline",
+      "args": [
+        "application_4",
+        "2026-05-15"
+      ]
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "application_4",
+        100
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "X"
+}

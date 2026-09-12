@@ -1,0 +1,35 @@
+{
+  "case_id": "D06",
+  "facts": [
+    {
+      "predicate": "created",
+      "args": [
+        "doc_6",
+        "2019-01-01"
+      ]
+    },
+    {
+      "predicate": "modified",
+      "args": [
+        "doc_6",
+        "2018-12-31"
+      ]
+    },
+    {
+      "predicate": "valid_from",
+      "args": [
+        "doc_6",
+        "2020-01-01"
+      ]
+    },
+    {
+      "predicate": "valid_to",
+      "args": [
+        "doc_6",
+        "2019-12-31"
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "Invalid"
+}

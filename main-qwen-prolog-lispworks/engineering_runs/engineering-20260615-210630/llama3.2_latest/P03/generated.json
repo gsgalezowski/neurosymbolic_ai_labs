@@ -1,0 +1,21 @@
+{
+  "case_id": "P03",
+  "facts": [
+    {
+      "predicate": "born",
+      "args": [
+        "piotr_zielinski",
+        2030
+      ]
+    },
+    {
+      "predicate": "born",
+      "args": [
+        "piotr_zielinski",
+        2030
+      ]
+    }
+  ],
+  "status": "invalid",
+  "answer": "No, the person was born in 2030, which is not a valid birth year."
+}

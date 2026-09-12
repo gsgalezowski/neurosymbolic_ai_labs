@@ -1,0 +1,6 @@
+case_id=F04
+domain=family
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=parent_born_after_child(filip,grazyna),parent_too_young(filip,grazyna)

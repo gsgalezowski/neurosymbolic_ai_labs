@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-07-01T19:07:37.690271+00:00",
+  "model": "qwen2.5:7b",
+  "case_id": "R04",
+  "domain": "administration",
+  "expected_status": "invalid",
+  "model_status": "invalid",
+  "model_correct": true,
+  "guard_action": "accept",
+  "final_action": "accepted",
+  "published_status": "invalid",
+  "published_correct": true,
+  "parse_error": "",
+  "symbolic_status": "invalid",
+  "violations": [
+    "submitted_after_deadline(application_4)"
+  ],
+  "ollama_ok": true,
+  "ollama_wall_ms": 4298.307,
+  "ollama_total_ms": 4290.82,
+  "ollama_load_ms": 72.522,
+  "ollama_prompt_eval_ms": 43.536,
+  "ollama_eval_ms": 1713.503,
+  "prompt_tokens": 181,
+  "generated_tokens": 123,
+  "prolog_ok": true,
+  "prolog_wall_ms": 71.299,
+  "pipeline_wall_ms": 4371.732
+}

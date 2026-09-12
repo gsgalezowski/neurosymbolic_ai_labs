@@ -1,0 +1,6 @@
+case_id=R04
+domain=administration
+action=accept
+symbolic_status=invalid
+model_status=invalid
+violations=submitted_after_deadline(application_4)
