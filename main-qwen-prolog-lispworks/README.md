@@ -100,6 +100,17 @@ Każdy przebieg obejmuje 60 generacji: 30 rekordów przetworzonych przez dwa mod
 
 W artykule pierwszy katalog odpowiada przebiegowi referencyjnemu, a drugi audytowi powtórzeniowemu.
 
+### Jak liczyć artefakty
+
+Każdy pełny katalog przebiegu ma 426 plików. Rachunek jest następujący:
+
+- 60 generacji w przebiegu: 30 rekordów × 2 modele,
+- 6 artefaktów wykonania na generację: `request.json`, `ollama-envelope.json`, `generated.json`, `guard.json`, `guard.decision`, `trace.json`,
+- 60 dodatkowych plików `case.json`, po jednym dla każdej kombinacji model-przypadek,
+- 6 plików zbiorczych przebiegu: `complete-trace-P04.json`, `engineering-report.md`, `manifest.json`, `metrics.csv`, `metrics.json`, `results.csv`.
+
+Dlatego jeden przebieg daje `60 × 6 + 60 + 6 = 426` plików. Dwa pełne przebiegi dołączone w repozytorium dają łącznie 852 pliki przebiegów. Rachunek `2 × 60 × 6 = 720` obejmuje wyłącznie sześć artefaktów wykonania generacji i nie liczy `case.json` ani plików zbiorczych.
+
 ## Interpretacja
 
 Eksperyment sprawdza, czy niezależna warstwa reguł może powstrzymać publikację odpowiedzi sprzecznej z faktami i regułami. Nie sprawdza prawdy encyklopedycznej. Fakty wejściowe są traktowane jako źródło zaufane.
